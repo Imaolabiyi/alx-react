@@ -1,16 +1,16 @@
-import React from 'react';
-import { shallow } from 'enzyme';
-import Header from './Header'; // Adjust path if necessary
+import React from "react";
+import logo from "../assets/holberton-logo.jpg";
+import "./Header.css";
 
-describe('Header Component', () => {
-  it('renders without crashing', () => {
-    shallow(<Header />);
-  });
+function Header() {
+  return (
+    <>
+      <div className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <h1>School dashboard</h1>
+      </div>
+    </>
+  );
+}
 
-  it('renders img and h1 tags', () => {
-    const wrapper = shallow(<Header />);
-    expect(wrapper.find('img').exists()).toBe(true);
-    expect(wrapper.find('h1').exists()).toBe(true);
-  });
-});
-
+export default Header;

@@ -1,15 +1,15 @@
-import { shallow } from 'enzyme';
-import Header from '../Header/Header'; // Adjust path as needed
+import React from "react";
+import Header from "./Header";
+import { shallow } from "enzyme";
 
-describe('Header Component', () => {
-  it('renders without crashing', () => {
-    shallow(<Header />);
-  });
-
-  it('contains img and h1 tags', () => {
+describe("Header", () => {
+  it("render without crashing", () => {
     const wrapper = shallow(<Header />);
-    expect(wrapper.find('img').length).toBeGreaterThan(0);
-    expect(wrapper.find('h1').length).toBeGreaterThan(0);
+    expect(wrapper.exists()).toEqual(true);
+  });
+  it("should render a h1", () => {
+    const wrapper = shallow(<Header />);
+    expect(wrapper.exists("img")).toEqual(true);
+    expect(wrapper.containsMatchingElement(<h1>School dashboard</h1>)).toEqual(true);
   });
 });
-
