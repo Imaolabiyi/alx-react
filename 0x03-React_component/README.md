@@ -1,1 +1,1 @@
-Convert the App function into a React Class:
+0x03-React_component

@@ -1,5 +1,1 @@
-0x04. React inline styling
-Front-end
-JavaScript
-ES6
-React
+0x04-React_inline_styling

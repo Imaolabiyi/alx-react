@@ -1,23 +1,35 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 .Notifications {
-  border: 1px dashed #c1384c ;
-  padding: 10px;
-  width: 400px;
+    border: 3px dotted red;
+    padding: 5rem;
+    padding-bottom: 1.5rem;
+    position: absolute;
+    top: 3rem;
+    right: 1rem;
 }
 
+.Notifications  p {
 
-.Notifications [data-notification-type="default"] {
-  color: blue;
+    margin-bottom: 25px;
+    position: absolute;
+    left: 1rem;
+    top: 3rem;
 }
 
-.Notifications [data-notification-type="urgent"] {
-  color: red;
+.menuItem {
+    position: absolute;
+    top: 0rem;
+    right: 1rem;
 }
-.placing{
-  position: absolute;
-  top: 0;
-  right: 10px;
-  
+
+ul li[data-notification-type= "default"] {
+    color: blue;
 }
-.menuItem{
-  text-align: end;
+
+ul li[data-notification-type = "urgent"] {
+    color: red;
 }
