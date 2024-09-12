@@ -1,9 +1,14 @@
 {
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
   "scripts": {
     "lint": "./node_modules/.bin/eslint",
     "check-lint": "lint [0-9]*.js",
     "test": "jest",
-    "full-test": "./node_modules/.bin/eslint [0-9]*.js && jest"
+    "full-test": "./node_modules/.bin/eslint [0-9]*.js && jest",
+    "start": "node main.js"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
@@ -18,3 +23,4 @@
     "immutable": "^4.3.7"
   }
 }
+
