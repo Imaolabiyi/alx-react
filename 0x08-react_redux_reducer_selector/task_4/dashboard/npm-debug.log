@@ -1,0 +1,275 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'redux',
+1 verbose cli   'redux-thunk',
+1 verbose cli   'node-fetch',
+1 verbose cli   'redux-mock-store',
+1 verbose cli   'fetch-mock',
+1 verbose cli   '--save' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData redux
+8 silly fetchPackageMetaData redux-thunk
+9 silly fetchPackageMetaData node-fetch
+10 silly fetchPackageMetaData redux-mock-store
+11 silly fetchPackageMetaData fetch-mock
+12 silly fetchNamedPackageData redux
+13 silly mapToRegistry name redux
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry uri https://registry.npmjs.org/redux
+17 silly fetchNamedPackageData redux-thunk
+18 silly mapToRegistry name redux-thunk
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry uri https://registry.npmjs.org/redux-thunk
+22 silly fetchNamedPackageData node-fetch
+23 silly mapToRegistry name node-fetch
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry uri https://registry.npmjs.org/node-fetch
+27 silly fetchNamedPackageData redux-mock-store
+28 silly mapToRegistry name redux-mock-store
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry uri https://registry.npmjs.org/redux-mock-store
+32 silly fetchNamedPackageData fetch-mock
+33 silly mapToRegistry name fetch-mock
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry uri https://registry.npmjs.org/fetch-mock
+37 verbose request uri https://registry.npmjs.org/redux
+38 verbose request no auth needed
+39 info attempt registry request try #1 at 4:17:43 PM
+40 verbose request id 123bce309499d8ee
+41 http request GET https://registry.npmjs.org/redux
+42 verbose request uri https://registry.npmjs.org/redux-thunk
+43 verbose request no auth needed
+44 info attempt registry request try #1 at 4:17:44 PM
+45 http request GET https://registry.npmjs.org/redux-thunk
+46 verbose request uri https://registry.npmjs.org/node-fetch
+47 verbose request no auth needed
+48 info attempt registry request try #1 at 4:17:44 PM
+49 http request GET https://registry.npmjs.org/node-fetch
+50 verbose request uri https://registry.npmjs.org/redux-mock-store
+51 verbose request no auth needed
+52 info attempt registry request try #1 at 4:17:44 PM
+53 http request GET https://registry.npmjs.org/redux-mock-store
+54 verbose request uri https://registry.npmjs.org/fetch-mock
+55 verbose request no auth needed
+56 info attempt registry request try #1 at 4:17:44 PM
+57 http request GET https://registry.npmjs.org/fetch-mock
+58 http 200 https://registry.npmjs.org/redux-mock-store
+59 verbose headers { date: 'Thu, 19 Sep 2024 16:17:44 GMT',
+59 verbose headers   'content-type': 'application/json',
+59 verbose headers   'transfer-encoding': 'chunked',
+59 verbose headers   connection: 'keep-alive',
+59 verbose headers   'cf-ray': '8c5ae33bf8a3883e-IAD',
+59 verbose headers   'cf-cache-status': 'HIT',
+59 verbose headers   'access-control-allow-origin': '*',
+59 verbose headers   age: '21',
+59 verbose headers   'cache-control': 'public, max-age=300',
+59 verbose headers   etag: 'W/"cfec41c1e1b35a270a34033ad85bb71f"',
+59 verbose headers   'last-modified': 'Sun, 26 Jun 2022 10:16:00 GMT',
+59 verbose headers   vary: 'accept-encoding, accept',
+59 verbose headers   server: 'cloudflare',
+59 verbose headers   'content-encoding': 'gzip' }
+60 silly get cb [ 200,
+60 silly get   { date: 'Thu, 19 Sep 2024 16:17:44 GMT',
+60 silly get     'content-type': 'application/json',
+60 silly get     'transfer-encoding': 'chunked',
+60 silly get     connection: 'keep-alive',
+60 silly get     'cf-ray': '8c5ae33bf8a3883e-IAD',
+60 silly get     'cf-cache-status': 'HIT',
+60 silly get     'access-control-allow-origin': '*',
+60 silly get     age: '21',
+60 silly get     'cache-control': 'public, max-age=300',
+60 silly get     etag: 'W/"cfec41c1e1b35a270a34033ad85bb71f"',
+60 silly get     'last-modified': 'Sun, 26 Jun 2022 10:16:00 GMT',
+60 silly get     vary: 'accept-encoding, accept',
+60 silly get     server: 'cloudflare',
+60 silly get     'content-encoding': 'gzip' } ]
+61 verbose get saving redux-mock-store to /root/.npm/registry.npmjs.org/redux-mock-store/.cache.json
+62 verbose makeDirectory /root/.npm creation not in flight; initializing
+63 silly makeDirectory /root/.npm uid: 0 gid: 0
+64 http 200 https://registry.npmjs.org/redux-thunk
+65 verbose headers { date: 'Thu, 19 Sep 2024 16:17:44 GMT',
+65 verbose headers   'content-type': 'application/json',
+65 verbose headers   'transfer-encoding': 'chunked',
+65 verbose headers   connection: 'keep-alive',
+65 verbose headers   'cf-ray': '8c5ae33bffe6c973-IAD',
+65 verbose headers   'cf-cache-status': 'HIT',
+65 verbose headers   'access-control-allow-origin': '*',
+65 verbose headers   age: '262',
+65 verbose headers   'cache-control': 'public, max-age=300',
+65 verbose headers   etag: 'W/"84b26d41c20d5add03a52c3a3e51f832"',
+65 verbose headers   'last-modified': 'Mon, 06 May 2024 13:38:46 GMT',
+65 verbose headers   vary: 'accept-encoding, accept',
+65 verbose headers   server: 'cloudflare',
+65 verbose headers   'content-encoding': 'gzip' }
+66 silly get cb [ 200,
+66 silly get   { date: 'Thu, 19 Sep 2024 16:17:44 GMT',
+66 silly get     'content-type': 'application/json',
+66 silly get     'transfer-encoding': 'chunked',
+66 silly get     connection: 'keep-alive',
+66 silly get     'cf-ray': '8c5ae33bffe6c973-IAD',
+66 silly get     'cf-cache-status': 'HIT',
+66 silly get     'access-control-allow-origin': '*',
+66 silly get     age: '262',
+66 silly get     'cache-control': 'public, max-age=300',
+66 silly get     etag: 'W/"84b26d41c20d5add03a52c3a3e51f832"',
+66 silly get     'last-modified': 'Mon, 06 May 2024 13:38:46 GMT',
+66 silly get     vary: 'accept-encoding, accept',
+66 silly get     server: 'cloudflare',
+66 silly get     'content-encoding': 'gzip' } ]
+67 verbose get saving redux-thunk to /root/.npm/registry.npmjs.org/redux-thunk/.cache.json
+68 http 200 https://registry.npmjs.org/redux
+69 verbose headers { date: 'Thu, 19 Sep 2024 16:17:44 GMT',
+69 verbose headers   'content-type': 'application/json',
+69 verbose headers   'transfer-encoding': 'chunked',
+69 verbose headers   connection: 'keep-alive',
+69 verbose headers   'cf-ray': '8c5ae33bfaadc997-IAD',
+69 verbose headers   'cf-cache-status': 'HIT',
+69 verbose headers   'access-control-allow-origin': '*',
+69 verbose headers   age: '158',
+69 verbose headers   'cache-control': 'public, max-age=300',
+69 verbose headers   etag: 'W/"e98ea54b7817597dbe948bbc1aa31dbb"',
+69 verbose headers   'last-modified': 'Mon, 06 May 2024 13:38:59 GMT',
+69 verbose headers   vary: 'accept-encoding, accept',
+69 verbose headers   server: 'cloudflare',
+69 verbose headers   'content-encoding': 'gzip' }
+70 silly get cb [ 200,
+70 silly get   { date: 'Thu, 19 Sep 2024 16:17:44 GMT',
+70 silly get     'content-type': 'application/json',
+70 silly get     'transfer-encoding': 'chunked',
+70 silly get     connection: 'keep-alive',
+70 silly get     'cf-ray': '8c5ae33bfaadc997-IAD',
+70 silly get     'cf-cache-status': 'HIT',
+70 silly get     'access-control-allow-origin': '*',
+70 silly get     age: '158',
+70 silly get     'cache-control': 'public, max-age=300',
+70 silly get     etag: 'W/"e98ea54b7817597dbe948bbc1aa31dbb"',
+70 silly get     'last-modified': 'Mon, 06 May 2024 13:38:59 GMT',
+70 silly get     vary: 'accept-encoding, accept',
+70 silly get     server: 'cloudflare',
+70 silly get     'content-encoding': 'gzip' } ]
+71 verbose get saving redux to /root/.npm/registry.npmjs.org/redux/.cache.json
+72 http 200 https://registry.npmjs.org/fetch-mock
+73 verbose headers { date: 'Thu, 19 Sep 2024 16:17:44 GMT',
+73 verbose headers   'content-type': 'application/json',
+73 verbose headers   'transfer-encoding': 'chunked',
+73 verbose headers   connection: 'keep-alive',
+73 verbose headers   'cf-ray': '8c5ae33bfcc0c97f-IAD',
+73 verbose headers   'cf-cache-status': 'HIT',
+73 verbose headers   'access-control-allow-origin': '*',
+73 verbose headers   age: '163',
+73 verbose headers   'cache-control': 'public, max-age=300',
+73 verbose headers   etag: 'W/"22a9b9912b7a63d478482e9ff9603f2e"',
+73 verbose headers   'last-modified': 'Thu, 19 Sep 2024 09:51:40 GMT',
+73 verbose headers   vary: 'accept-encoding, accept',
+73 verbose headers   server: 'cloudflare',
+73 verbose headers   'content-encoding': 'gzip' }
+74 silly get cb [ 200,
+74 silly get   { date: 'Thu, 19 Sep 2024 16:17:44 GMT',
+74 silly get     'content-type': 'application/json',
+74 silly get     'transfer-encoding': 'chunked',
+74 silly get     connection: 'keep-alive',
+74 silly get     'cf-ray': '8c5ae33bfcc0c97f-IAD',
+74 silly get     'cf-cache-status': 'HIT',
+74 silly get     'access-control-allow-origin': '*',
+74 silly get     age: '163',
+74 silly get     'cache-control': 'public, max-age=300',
+74 silly get     etag: 'W/"22a9b9912b7a63d478482e9ff9603f2e"',
+74 silly get     'last-modified': 'Thu, 19 Sep 2024 09:51:40 GMT',
+74 silly get     vary: 'accept-encoding, accept',
+74 silly get     server: 'cloudflare',
+74 silly get     'content-encoding': 'gzip' } ]
+75 verbose get saving fetch-mock to /root/.npm/registry.npmjs.org/fetch-mock/.cache.json
+76 http 200 https://registry.npmjs.org/node-fetch
+77 verbose headers { date: 'Thu, 19 Sep 2024 16:17:44 GMT',
+77 verbose headers   'content-type': 'application/json',
+77 verbose headers   'transfer-encoding': 'chunked',
+77 verbose headers   connection: 'keep-alive',
+77 verbose headers   'cf-ray': '8c5ae33bf9d7825d-IAD',
+77 verbose headers   'cf-cache-status': 'HIT',
+77 verbose headers   'access-control-allow-origin': '*',
+77 verbose headers   age: '206',
+77 verbose headers   'cache-control': 'public, max-age=300',
+77 verbose headers   etag: 'W/"5f1d959e91bdfaaef25267351903414b"',
+77 verbose headers   'last-modified': 'Thu, 30 Nov 2023 14:10:14 GMT',
+77 verbose headers   vary: 'accept-encoding, accept',
+77 verbose headers   server: 'cloudflare',
+77 verbose headers   'content-encoding': 'gzip' }
+78 silly get cb [ 200,
+78 silly get   { date: 'Thu, 19 Sep 2024 16:17:44 GMT',
+78 silly get     'content-type': 'application/json',
+78 silly get     'transfer-encoding': 'chunked',
+78 silly get     connection: 'keep-alive',
+78 silly get     'cf-ray': '8c5ae33bf9d7825d-IAD',
+78 silly get     'cf-cache-status': 'HIT',
+78 silly get     'access-control-allow-origin': '*',
+78 silly get     age: '206',
+78 silly get     'cache-control': 'public, max-age=300',
+78 silly get     etag: 'W/"5f1d959e91bdfaaef25267351903414b"',
+78 silly get     'last-modified': 'Thu, 30 Nov 2023 14:10:14 GMT',
+78 silly get     vary: 'accept-encoding, accept',
+78 silly get     server: 'cloudflare',
+78 silly get     'content-encoding': 'gzip' } ]
+79 verbose get saving node-fetch to /root/.npm/registry.npmjs.org/node-fetch/.cache.json
+80 silly install normalizeTree
+81 silly loadCurrentTree Finishing
+82 silly loadIdealTree Starting
+83 silly install loadIdealTree
+84 silly cloneCurrentTree Starting
+85 silly install cloneCurrentTreeToIdealTree
+86 silly cloneCurrentTree Finishing
+87 silly loadShrinkwrap Starting
+88 silly install loadShrinkwrap
+89 silly loadShrinkwrap Finishing
+90 silly loadAllDepsIntoIdealTree Starting
+91 silly install loadAllDepsIntoIdealTree
+92 silly resolveWithNewModule redux-thunk@3.1.0 checking installable status
+93 silly cache add args [ 'redux-thunk', null ]
+94 verbose cache add spec redux-thunk
+95 silly resolveWithNewModule redux-mock-store@1.5.4 checking installable status
+96 silly cache add args [ 'redux-mock-store', null ]
+97 verbose cache add spec redux-mock-store
+98 silly resolveWithNewModule redux@5.0.1 checking installable status
+99 silly cache add args [ 'redux', null ]
+100 verbose cache add spec redux
+101 verbose stack Error: Missing required argument #1
+101 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+101 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+101 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+101 verbose stack     at /usr/share/npm/lib/install/deps.js:190:5
+101 verbose stack     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:35
+101 verbose stack     at Array.forEach (<anonymous>)
+101 verbose stack     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:11
+101 verbose stack     at Array.forEach (<anonymous>)
+101 verbose stack     at asyncMap (/usr/share/npm/node_modules/slide/lib/async-map.js:51:8)
+101 verbose stack     at exports.loadRequestedDeps (/usr/share/npm/lib/install/deps.js:188:3)
+102 verbose cwd /root/alx-react/0x07-react_redux_action_creator_normalizr/task_7/dashboard
+103 error Linux 5.3.0-1032-aws
+104 error argv "/usr/bin/node" "/usr/bin/npm" "install" "redux" "redux-thunk" "node-fetch" "redux-mock-store" "fetch-mock" "--save"
+105 error node v8.10.0
+106 error npm  v3.5.2
+107 error code EMISSINGARG
+108 error typeerror Error: Missing required argument #1
+108 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+108 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+108 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+108 error typeerror     at /usr/share/npm/lib/install/deps.js:190:5
+108 error typeerror     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:35
+108 error typeerror     at Array.forEach (<anonymous>)
+108 error typeerror     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:11
+108 error typeerror     at Array.forEach (<anonymous>)
+108 error typeerror     at asyncMap (/usr/share/npm/node_modules/slide/lib/async-map.js:51:8)
+108 error typeerror     at exports.loadRequestedDeps (/usr/share/npm/lib/install/deps.js:188:3)
+109 error typeerror This is an error with npm itself. Please report this error at:
+109 error typeerror     <http://github.com/npm/npm/issues>
+110 verbose exit [ 1, true ]
